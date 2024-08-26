@@ -1,0 +1,337 @@
+/*
+ * BookSum - utilities.css 1.0
+ * Copyright 2024 SkyLabs.
+ */
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding-left: var(--length-sm3);
+  padding-right: var(--length-sm3);
+}
+
+.card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: var(--length-sm3);
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px #fff solid;
+}
+
+.btn:hover {
+  transform: scale(0.99);
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  color: white ;
+  
+}
+
+/* Backgrounds & colored buttons */
+.bg-primary,
+.btn-primary {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.bg-secondary,
+.btn-secondary {
+  background-color: var(--color-secondary);
+  color: #fff;
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: var(--color-dark);
+  color: #fff;
+}
+
+.bg-light,
+.btn-light {
+  background-color: var(--light-color);
+  color: #333;
+}
+
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+  color: #fff;
+}
+
+/* Text colors */
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-secondary {
+  color: var(--color-secondary);
+}
+
+.text-dark {
+  color: var(--color-dark);
+}
+
+.text-light {
+  color: var(--light-color);
+}
+
+/* Text sizes */
+.lead {
+  font-size: 20px;
+}
+
+.sm {
+  font-size: 1rem;
+}
+
+.md {
+  font-size: 2rem;
+}
+
+.lg {
+  font-size: 3rem;
+}
+
+.xl {
+  font-size: 4rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Alert */
+.alert {
+  background-color: var(--light-color);
+  padding: 10px 20px;
+  margin: 15px 0;
+}
+
+.alert i {
+  margin-right: 10px;
+}
+
+.alert-success {
+  background-color: var(--success-color);
+  color: #fff;
+}
+
+.alert-error {
+  background-color: var(--error-color);
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Margin */
+.m-0 { margin: 0px; }
+.m-1 { margin: var(--length-sm2); }
+.m-2 { margin: var(--length-md3); }
+.m-3 { margin: var(--length-lg1); }
+.m-4 { margin: var(--length-lg2); }
+.m-5 { margin: var(--length-lg3); }
+
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.my-1 {
+  margin-top: var(--length-sm2);
+  margin-bottom: var(--length-sm2);
+}
+
+.my-2 {
+  margin-top: var(--length-md3);
+  margin-bottom: var(--length-md3);
+}
+
+.my-3 {
+  margin-top: var(--length-lg1);
+  margin-bottom: var(--length-lg1);
+}
+
+.my-4 {
+  margin-top: var(--length-lg2);
+  margin-bottom: var(--length-lg2);
+}
+
+.my-5 {
+  margin-top: var(--length-lg3);
+  margin-bottom: var(--length-lg3);
+}
+
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.mx-1 {
+  margin-left: var(--length-sm2);
+  margin-right: var(--length-sm2);
+}
+
+.mx-2 {
+  margin-left: var(--length-md3);
+  margin-right: var(--length-md3);
+}
+
+.mx-3 {
+  margin-left: var(--length-lg1);
+  margin-right: var(--length-lg1);
+}
+
+.mx-4 {
+  margin-left: var(--length-lg2);
+  margin-right: var(--length-lg2);
+}
+
+.mx-5 {
+  margin-left: var(--length-lg3);
+  margin-right: var(--length-lg3);
+}
+
+/* Padding */
+.p-0 { padding: 0px; }
+.p-1 { padding: var(--length-sm2); }
+.p-2 { padding: var(--length-md3); }
+.p-3 { padding: var(--length-lg1); }
+.p-4 { padding: var(--length-lg2); }
+.p-5 { padding: var(--length-lg3); }
+
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.py-1 {
+  padding-top: var(--length-sm2);
+  padding-bottom: var(--length-sm2);
+}
+
+.py-2 {
+  padding-top: var(--length-md3);
+  padding-bottom: var(--length-md3);
+}
+
+.py-3 {
+  padding-top: var(--length-lg1);
+  padding-bottom: var(--length-lg1);
+}
+
+.py-4 {
+  padding-top: var(--length-lg2);
+  padding-bottom: var(--length-lg2);
+}
+
+.py-5 {
+  padding-top: var(--length-lg3);
+  padding-bottom: var(--length-lg3);
+}
+
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.px-1 {
+  padding-left: var(--length-sm2);
+  padding-right: var(--length-sm2);
+}
+
+.px-2 {
+  padding-left: var(--length-md3);
+  padding-right: var(--length-md3);
+}
+
+.px-3 {
+  padding-left: var(--length-lg1);
+  padding-right: var(--length-lg1);
+}
+
+.px-4 {
+  padding-left: var(--length-lg2);
+  padding-right: var(--length-lg2);
+}
+
+.px-5 {
+  padding-left: var(--length-lg3);
+  padding-right: var(--length-lg3);
+}
+
+/* Interaction & Visibility */
+.hidden,
+.hide {
+  display: none;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.noselect,
+.btn {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.nodrag {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
